@@ -1,0 +1,39 @@
+header{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(56, 52, 52);
+    color: white;
+}
+footer, p{
+    position: relative;
+    color: white;
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(56, 52, 52);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+td{
+    
+    border-style: solid;
+}
+#editar{
+    background-color: rgb(44, 192, 44);
+}
+#eliminar{
+    background-color: rgb(233, 66, 66);
+}
+.guardar{
+    background-color: rgb(13, 119, 218);
+    margin: 2px;
+    color: white;
+    border-radius: 5px;
+}
+/* -----------------EDITAR.HTML-------------- */
+.formulario{
+    padding: 2vh;
+    border-radius: 10px;
+    background-color: rgb(174, 196, 243);
+}
