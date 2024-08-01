@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Interactivas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Cursos interactivos</h1>
+    </header>
+    <main>
+        <table class="Cursos">
+                <button class="guardar" type="submit" onclick="crearCurso()">Crear Nuevo Curso</button>           <tr>
+                <td>Id</td>
+                <td>Nombre del Curso</td>
+                <td>Descripcion detallada</td>
+                <td>Editar</td>
+                <td>Eliminar</td>
+            </tr>
+            <tr >
+                <td>1</td>
+                <td>Matematicas</td>
+                <td>Aqui va la Descripcion detallada</td>
+                <td>
+                    <div>
+                        <button id="editar" onclick="editarCurso()" type="submit"><a
+                                href="editar.html"></a>Editar</a></button>
+                    </div>
+                </td>
+                <td>
+                    <div>
+
+                        <button id="eliminar" onclick="eliminarCurso()" type="submit">Eliminar</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>copyright @2023</p>
+    </footer>
+</body>
+
+</html>
